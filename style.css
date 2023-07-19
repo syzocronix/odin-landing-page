@@ -1,93 +1,96 @@
-html {
+* {
     box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: Roboto, serif;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+.hero {
+    background-color: #1f2937;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 .container {
-    margin: auto;
     max-width: 1000px;
+    margin: auto;
 }
 
-.header {
-    background-color: #1F2937;
-    width: 100%;
-    color: #f9faf8;
-    padding-bottom: 80px;
-}
-
-.topbar {
+.flex-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
 }
 
-.navitem {
-    list-style-type: none;
-}
-
-nav {
+.flex-hero {
     display: flex;
-    gap: 30px;
-    align-items: center;
     justify-content: center;
+    align-items: flex-start;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
 }
 
 .logo {
     font-size: 24px;
-}
-
-.h1-hero {
-    font-size: 48px;
-    font-weight: 900;
     color: #f9faf8;
-    margin-bottom: 10px;
 }
 
-.herodesc {
+.nav-link {
     font-size: 18px;
     color: #e5e7eb;
-    margin-bottom: 35px;
-    font-weight: 100;
+    text-decoration: none;
 }
 
-.hero {
-    display: flex;
-    gap: 30px;
-    justify-content: space-between;
-}
-
-.herotext {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    flex-shrink: 1;
-}
-
-button {
-    background-color: rgb(71, 130, 249);
-    color: #fff;
-    width: 130px;
-    padding: 8px 16px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 400;
-}
-
-.image {
-    overflow: hidden;
+.hero-image {
+    width: 550px;
+    height: 300px;
 }
 
 img {
-   object-fit: fill;
-   height: 300px;
-   width: 500px;
-   border-radius: 10px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin: 0;
+    padding-top: 25px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 35px;
+}
+
+.blue-button {
+    background-color: #3882f6;
+    border: 0;
+    color: #fff;
+    padding: 8px 35px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.hero-text {
+    width: 450px;
+    margin-right: 40px;
+    flex-shrink: 0;
 }
