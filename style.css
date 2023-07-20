@@ -87,6 +87,8 @@ h1 {
     font-weight: bold;
     font-size: 16px;
     border-radius: 7px;
+    height: 40px;
+    width: 175px;
 }
 
 .hero-text {
@@ -94,3 +96,128 @@ h1 {
     margin-right: 40px;
     flex-shrink: 0;
 }
+
+.info {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 175px;
+}
+.flex-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 45px;
+}
+
+.card {
+    width: 175px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.text-info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.quote-wrapper {
+    width: 75%;
+    text-align: left;
+    margin: auto;
+}
+
+.text-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0;
+}
+
+.quote-author {
+    font-weight: 700;
+    font-size: 22px;
+    text-align: right;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.cta {
+    padding: 100px;
+}
+
+.flex-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    width: 100%;
+    padding: 30px 90px 35px 90px;
+    border-radius: 10px;
+    align-items: center;
+    color: #e5e7eb;
+}
+
+.cta-btn {
+    border: 2px solid;
+    color: #fff;
+    padding: 8px 35px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 7px;
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    height: 40px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 0;
+    color: #fff;
+}
+
+.cta-text {
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #1f2937;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-footer {
+    color: #e5e7eb;
+}
+
